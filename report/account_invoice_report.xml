@@ -1,0 +1,12 @@
+<!-- account_invoice_report.xml -->
+<odoo><!--
+    <template id="report_invoice_document_inherit" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@class='page']" position="inside">
+            <div class="row mt32 mb32">
+                <div class="col-6">
+                    <span t-field="o.partner_id.ice"/>
+                </div>
+            </div>
+        </xpath>
+    </template>-->
+</odoo>

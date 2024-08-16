@@ -1,0 +1,12 @@
+<!-- purchase_order_report.xml -->
+<odoo>
+    <template id="report_purchase_order_inherit" inherit_id="purchase.report_purchaseorder_document">
+        <xpath expr="//div[@class='page']" position="inside">
+            <div class="row mt32 mb32">
+                <div class="col-6">
+                    <span t-field="o.partner_id.ice"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
